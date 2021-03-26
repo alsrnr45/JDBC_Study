@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>test properties</comment>
+<entry key="U">Update</entry>
+<entry key="R">Select</entry>
+<entry key="D">Delete</entry>
+<entry key="C">Insert</entry>
+</properties>

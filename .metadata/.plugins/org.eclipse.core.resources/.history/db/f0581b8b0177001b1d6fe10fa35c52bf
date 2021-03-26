@@ -1,0 +1,34 @@
+package run;
+
+import java.util.Properties;
+
+public class Run {
+
+	public static void main(String[] args) {
+		/*
+		 * *Properties 
+		 * - Map 계열의 컬렉션(key + value 세트로 담는)
+		 * - Key값도 String, Value 값도 String인 특징
+		 * - Properties에 담겨있는 것들을 파일로 출력을 한다거나 
+		 *   파일에 있는 데이터들을 Properties 입력 받아올 수 있는
+		 *   즉, 파일과 입출력할 수 있는 메소드를 제공!
+		 * 
+		 *   
+		 *   CRUD 구현(C-Insert, R-Select, U-Update, D-Delete)
+		 */
+		Properties prop = new Properties();
+		
+		// setProperty 메소드
+		prop.setProperty("C", "Insert");
+		prop.setProperty("R", "Select");
+		prop.setProperty("U", "Update");
+		prop.setProperty("D", "Delete");
+		
+		 System.out.println(prop);
+		
+		
+		
+		
+	}
+
+}
