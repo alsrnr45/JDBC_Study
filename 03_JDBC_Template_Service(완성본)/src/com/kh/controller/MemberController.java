@@ -86,8 +86,6 @@ public class MemberController {
 		}else {
 			new MemberMenu().displayFail("회원 탈퇴 실패!!");
 		}
-		
-		
 	}
 
 	public void loginMember(String userId, String userPwd) {
